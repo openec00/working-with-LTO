@@ -76,7 +76,6 @@ mtx -f /dev/sg4 unload 10 0
 ```
 <br />
 
-```bash
 Detach from tmux session
 ```
 CTRL-b then tap ‘d’
