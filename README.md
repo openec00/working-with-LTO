@@ -36,7 +36,7 @@ mtx -f /dev/sg4 status
 <br />
 
 Example Output:
-###### Storage Element 10:Full :VolumeTag=QLZ040L8
+###### Storage Element 10:Full :VolumeTag=ABC010L8
 ###### Storage Element 11:Empty
 <br />
 
