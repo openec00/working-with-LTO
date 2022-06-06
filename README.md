@@ -48,7 +48,7 @@ mtx -f /dev/sg4 load 10 0
 
 Format the LTO tape
 ```bash
-mkltfs --device=/dev/st0 --backend=ltotape --volume-name="QLZ040L8"
+mkltfs --device=/dev/st0 --backend=ltotape --volume-name="ABC010L8"
 ```
 <br />
 
@@ -60,7 +60,7 @@ ltfs /mnt/ltfs_st0 -o tape_backend=ltotape,sync_type=unmount,uid=1000,gid=100,um
 
 Write files to LTO using mbuffer to handle I/O and create logfile and md5 checksum
 ```bash
-mbuffer -i 2014_Hanzo.tar -l /var/log/MYFILES_QLZ040L8.log -e --hash MD5 -m 2G -P 10 -c -o /mnt/ltfs_st0/MYFILES.tar
+mbuffer -i MYFILES.tar -l /var/log/MYFILES_ABC010L8.log -e --hash MD5 -m 2G -P 10 -c -o /mnt/ltfs_st0/MYFILES.tar
 ```
 <br />
 
